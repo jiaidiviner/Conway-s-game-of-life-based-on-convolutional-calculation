@@ -1,9 +1,14 @@
-# 项目名称
+# This is my first repo
 
-## 简介
+该程序可以将图片中的轮廓提取出来，并转化为黑白图片，同时支持图片格式转换功能。
 
-简要介绍你的项目。说明项目的目的、主要功能和它解决了什么问题。
+## 使用方法
 
-例如：
-```markdown
-**项目名称** 是一个用于 [描述项目功能和用途] 的工具/应用程序/库。它旨在 [解决什么问题] 并提供 [主要功能或优势]。
+在命令行中输入以下命令：
+
+```bash
+python picture_form_converter.py "C:\Users\jiaid\Pictures\Screenshots\屏幕截图 2024-09-04 165419.png" "C:\Users\jiaid\Desktop" --name "movhhh.bmp" --style "black"
+```
+## 图片展示<br>
+![展示图片1](./picture/mov.bmp)<br>
+![展示图片2](./picture/jackson.png)
